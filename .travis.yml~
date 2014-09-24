@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.1.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: T00rmWvUN97SubE8dWtxjMTZslYEYZ1yP9E9DFw5WiCnrH0gshh0KQlGx0XZtt+HUNjnwBkaS5xl250nneof+31HIADmD9XUw6gEu77OAtDdEZTH0/9pTXgvSo8cEIUNOpufChwsjvE9cHOIoiMFCh8Gw0PZ3DwEX0mwyZa1e4Q=
+  app: ancient-basin-2618
+  on:
+    repo: ToshiteruM/rails_enpit
